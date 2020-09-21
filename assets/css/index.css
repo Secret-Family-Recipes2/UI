@@ -286,19 +286,29 @@ footer {
 
 
 /* Media Queries */
-@media (max-width: 991px) {
+
+/* Desktop */
+@media (max-width: 1024px) {
     .homepage-contentbox div{
     width: 40%;
   }
 }
 
-@media (max-width: 767px) {
+
+/* Tablet */
+@media (max-width: 800px) {
     .homepage-contentbox div{
     width: 100%;
   }
+
+  li {
+    margin: 8% 8%;
+  }
+  
 }
 
-@media (max-width: 479px) {
+/* Mobile */
+@media (max-width: 500px) {
   h1 {
     font-size: 3rem;
     padding: 4% 0;
@@ -315,6 +325,11 @@ footer {
     width: 100%;
   }
   
+  li {
+    margin: 8% 8%;
+  }
+  
+
   .homepage-contentbox div{
     width: 100%;
   }   
