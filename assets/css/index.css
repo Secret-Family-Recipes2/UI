@@ -96,6 +96,12 @@ h5 {
   font-size: 1.5rem;
 }
 
+p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: .2rem;
+}
+
 /* Color Palette Light to Dark
 ffffff
 e5e5e5
@@ -129,6 +135,16 @@ nav {
 }
 
 /* Section Styles */
+
+.homepage-hero {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2% 2%;
+}
+
+
 .homepage-contentbox {
   display: flex;
   flex-flow: row wrap;
@@ -137,11 +153,13 @@ nav {
 }
 
 .homepage-contentbox div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 25%;
   height: 45vh;  
   margin: 2% 2%;
   text-shadow: 2px 2px 2px #000;
-  text-align: center;
 }
 
 .homepage-contentbox div:hover{
