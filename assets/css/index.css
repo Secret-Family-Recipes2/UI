@@ -120,6 +120,10 @@ li {
   padding: 2% 0;
 }
 
+strong {
+  font-weight: 700;
+}
+
 /* Color Palette Light to Dark
 ffffff
 e5e5e5
