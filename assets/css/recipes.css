@@ -232,7 +232,7 @@ nav {
 
 /* Section Styles */
 
-.about-intro {
+.recipes-intro {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -242,7 +242,7 @@ nav {
 }
 
 
-.about-contentbox {
+.recipes-contentbox {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -250,7 +250,7 @@ nav {
     background-color: #e5e5e5;
 }
 
-.about-contentbox div {
+.recipes-contentbox div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,55 +260,55 @@ nav {
     text-shadow: 2px 2px 2px #000;
 }
 
-.about-contentbox div:hover {
+.recipes-contentbox div:hover {
     transition: 1s;
     filter: grayscale(100%);
     border: 4px solid #fca311;
     flex-grow: 3;
 }
 
-.about-person .team1 {
-    background: url(https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+.recipes-foodpanel.recipe1 {
+    background: url(https://ca.slack-edge.com/ESZCHB482-W013NQ2U1F1-c896d4be006d-512);
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;
     color: #e5e5e5;
 }
 
-.about-person .team2 {
-    background: url(https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+.recipes-foodpanel.recipe2 {
+    background: url(https://ca.slack-edge.com/ESZCHB482-W012JUU4BJN-af56f96d9fe3-512);
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;
     color: #e5e5e5;
 }
 
-.about-person .team3 {
-    background: url(https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+.recipes-foodpanel.recipe3 {
+    background: url(https://ca.slack-edge.com/ESZCHB482-W017FGSH97Y-ec6646aa713d-512);
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;
     color: #e5e5e5;
 }
 
-.about-person .team4 {
-    background: url(https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+.recipes-foodpanel.recipe4 {
+    background-image: url('./Brendan_Lai-Tong.png');
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;
     color: #e5e5e5;
 }
 
-.about-person .team5 {
-    background: url(https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+.recipes-foodpanel.recipe5 {
+    background: url(https://ca.slack-edge.com/ESZCHB482-W0198A5N8M8-3b32f0208c1f-512);
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;
     color: #e5e5e5;
 }
 
-.about-person .team6 {
-    background: url(https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+.recipes-foodpanel.recipe6 {
+    background: url(https://ca.slack-edge.com/ESZCHB482-W0138D1DZ0Q-37a2a49c4e05-512);
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;
@@ -351,21 +351,23 @@ footer {
 
 
 
-
 /* Media Queries */
-@media (max-width: 991px) {
+/* desktop */
+@media (max-width: 1024px) {
     .homepage-contentbox div {
         width: 40%;
     }
 }
 
-@media (max-width: 767px) {
+/* tablet */
+@media (max-width: 800px) {
     .homepage-contentbox div {
         width: 100%;
     }
 }
 
-@media (max-width: 479px) {
+/* mobile */
+@media (max-width: 500px) {
     nav {
         flex-flow: column no-wrap;
         align-content: center;
