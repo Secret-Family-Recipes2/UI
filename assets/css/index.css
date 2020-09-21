@@ -110,6 +110,16 @@ p {
   padding: 0 2%;
 }
 
+ul {
+  list-style-type: disc;
+  margin: 4% 4%;
+}
+
+li {
+  font-size: 2rem;
+  padding: 10% 0;
+}
+
 /* Color Palette Light to Dark
 ffffff
 e5e5e5
