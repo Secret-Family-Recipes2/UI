@@ -82,7 +82,7 @@ h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 4rem;;
+  font-size: 4rem;
 }
 
 h2 {
@@ -108,6 +108,7 @@ p {
   line-height: 2rem;
   letter-spacing: .2rem;
   padding: 0 2%;
+  margin: 2% 0;
 }
 
 ul {
@@ -117,7 +118,11 @@ ul {
 
 li {
   font-size: 2rem;
-  padding: 10% 0;
+  padding: 2% 0;
+}
+
+strong {
+  font-weight: 700;
 }
 
 /* Color Palette Light to Dark
@@ -131,10 +136,10 @@ fca311
 
 /* Header Styles */
 .logo {
+  font-family: 'Dancing Script', cursive;
   font-weight: 700;
   background-color: #14213d; 
-  color: #fff;
-  font-family: 'Dancing Script', cursive;
+  color: #fff;  
   text-align: center;
 }
 
@@ -228,6 +233,24 @@ nav {
 
 
 
+.featurepage-hero {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: space-between;
+  padding: 2% 2%;
+  background-color: #e5e5e5;
+}
+
+
+.featurepage-hero div{
+  padding: 4% 2%;
+}
+
+
+
+
+
 
 /* Footer Styles */
 .footer-nav {
@@ -264,21 +287,36 @@ footer {
 
 
 /* Media Queries */
-@media (max-width: 991px) {
+
+/* Desktop */
+@media (max-width: 1024px) {
     .homepage-contentbox div{
     width: 40%;
   }
 }
 
-@media (max-width: 767px) {
+
+/* Tablet */
+@media (max-width: 800px) {
     .homepage-contentbox div{
     width: 100%;
   }
+
+  li {
+    margin: 8% 8%;
+  }
+  
 }
 
-@media (max-width: 479px) {
+/* Mobile */
+@media (max-width: 500px) {
   h1 {
     font-size: 3rem;
+    padding: 4% 0;
+  }
+
+  h2 {
+    font-size: 2rem;
     padding: 4% 0;
   }
   
@@ -293,6 +331,11 @@ footer {
     width: 100%;
   }
   
+  li {
+    margin: 8% 8%;
+  }
+  
+
   .homepage-contentbox div{
     width: 100%;
   }   
