@@ -61,6 +61,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #4f4f4f;
     font-size: 1rem;
     font-weight: 300;
 }
@@ -80,8 +81,14 @@ h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+h1 {
+  font-size: 4rem;;
+}
+
 h2 {
   font-size: 3rem;
+  margin-bottom: 2%;
+  margin-left: 2%;
 }
 
 h3 {
@@ -100,6 +107,7 @@ p {
   font-size: 1.5rem;
   line-height: 2rem;
   letter-spacing: .2rem;
+  padding: 0 2%;
 }
 
 /* Color Palette Light to Dark
@@ -117,7 +125,6 @@ fca311
   background-color: #14213d; 
   color: #fff;
   font-family: 'Dancing Script', cursive;
-  font-size: 4rem;
   text-align: center;
 }
 
@@ -129,6 +136,7 @@ fca311
 
 nav {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   background-color: #14213d;
   height: 20vh;
@@ -142,6 +150,7 @@ nav {
   justify-content: center;
   align-items: flex-start;
   padding: 2% 2%;
+  background-color: #e5e5e5;
 }
 
 
@@ -150,6 +159,7 @@ nav {
   flex-flow: row wrap;
   justify-content: space-between;
   padding: 2% 2%;
+  background-color: #e5e5e5;
 }
 
 .homepage-contentbox div{
@@ -255,14 +265,31 @@ footer {
 
 
 /* Media Queries */
-@media (max-width: xyz) {
-
+@media (max-width: 991px) {
+    .homepage-contentbox div{
+    width: 40%;
+  }
 }
 
-@media (max-width: xyz) {
-    
+@media (max-width: 767px) {
+    .homepage-contentbox div{
+    width: 100%;
+  }
 }
 
-@media (max-width: xyz) {
-    
+@media (max-width: 479px) {
+  nav {
+    flex-flow: column no-wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 4% 4%;
+  }
+  
+  nav a {
+    width: 100%;
+  }
+  
+  .homepage-contentbox div{
+    width: 100%;
+  }   
 }
