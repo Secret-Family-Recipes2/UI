@@ -351,21 +351,23 @@ footer {
 
 
 
-
 /* Media Queries */
-@media (max-width: 991px) {
+/* desktop */
+@media (max-width: 1024px) {
     .homepage-contentbox div {
         width: 40%;
     }
 }
 
-@media (max-width: 767px) {
+/* tablet */
+@media (max-width: 800px) {
     .homepage-contentbox div {
         width: 100%;
     }
 }
 
-@media (max-width: 479px) {
+/* mobile */
+@media (max-width: 500px) {
     nav {
         flex-flow: column no-wrap;
         align-content: center;
