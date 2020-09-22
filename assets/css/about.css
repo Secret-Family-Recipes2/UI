@@ -144,6 +144,13 @@ font-family: 'Roboto', sans-serif;*/
 
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+​ *,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 body {
@@ -273,10 +280,6 @@ nav {
     flex-grow: 3;
 }
 
-.about-contentbox h2,
-p {
-    /* margin: 2%; */
-}
 
 /* .about-contentbox p {
     visibility: hidden;
