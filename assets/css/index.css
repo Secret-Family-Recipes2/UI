@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto+Slab:wght@300;500;700&family=Roboto:wght@300;500;700&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -48,29 +51,37 @@ table {
 }
 
 /* Base CSS Start */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto+Slab:wght@300;500;700&family=Roboto:wght@300;500;700&display=swap');
 
 /* Fonts
 font-family: 'Dancing Script', cursive;
 font-family: 'Roboto Slab', serif;
 font-family: 'Roboto', sans-serif;*/
 
+
+/* Main Container Attributers */
 html {  
-    font-size: 62.5%;
+  font-size: 62.5%;    
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: #4f4f4f;
-    font-size: 1rem;
+    font-size: 1.75rem;
     font-weight: 300;
 }
 
 .container {
-  width: 70%;
+  width: 100%;
   margin: auto;  
 }
 
+
+/* Basic Tag Styles */
 a {
   display: inline-block;
   text-decoration: none;
@@ -82,7 +93,7 @@ h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 10rem;
 }
 
 h2 {
@@ -104,7 +115,6 @@ h5 {
 }
 
 p {
-  font-size: 1.5rem;
   line-height: 2rem;
   letter-spacing: .2rem;
   padding: 0 2%;
@@ -113,6 +123,7 @@ p {
 
 ul {
   list-style-type: disc;
+  padding-bottom: 10%;
   margin: 4% 4%;
 }
 
@@ -133,7 +144,6 @@ fca311
 4f4f4f
 */
 
-
 /* Header Styles */
 .logo {
   font-family: 'Dancing Script', cursive;
@@ -142,7 +152,6 @@ fca311
   color: #fff;  
   text-align: center;
 }
-
 
 .nav-border {
   height: 3vh;    
@@ -157,14 +166,17 @@ nav {
   height: 20vh;
 }
 
-/* Section Styles */
+
+
+
+/* Home Page Styles */
 
 .homepage-hero {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: flex-start;
-  padding: 2% 2%;
+  padding: 4% 2%;
   background-color: #e5e5e5;
 }
 
@@ -173,7 +185,7 @@ nav {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  padding: 2% 2%;
+  padding: 8% 2%;
   background-color: #e5e5e5;
 }
 
@@ -188,18 +200,17 @@ nav {
 }
 
 .homepage-contentbox div:hover{
-  transition: 1s;
-  filter: grayscale(100%);
+  transition: 1.5s ease-in-out;
+  filter: grayscale(100%); 
   border: 4px solid #fca311;
   flex-grow: 3;
 }
 
-.homepage-foodpanel {  
+.homepage-foodpanel, .featurespage-foodpanel {  
   border-radius: 10px;
   box-shadow: 5px 5px 30px #4f4f4f;
   color: #e5e5e5;
 }
-
 
 .homepage-foodpanel.card1 {
   background: url(https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
@@ -233,20 +244,58 @@ nav {
 
 
 
+
+
+/* Features Page Styles */
+
+.featurespage-foodpanel.card1 {
+  background: url(https://images.unsplash.com/photo-1521305916504-4a1121188589?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+.featurespage-foodpanel.card2 {
+  background: url(https://images.unsplash.com/photo-1490457843367-34b21b6ccd85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+.featurespage-foodpanel.card3 {
+  background: url(https://images.unsplash.com/photo-1573333515743-56d57731dd1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
 .featurepage-hero {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
   align-items: space-between;
-  padding: 2% 2%;
+  padding: 0% 0%;
   background-color: #e5e5e5;
 }
-
 
 .featurepage-hero div{
   padding: 4% 2%;
 }
 
+.featurepage-info {
+  color: #fff;
+  box-shadow: inset 20px 20px 40px #000;
+  text-shadow: 2px 2px 4px #000;
+  max-width: 100%;
+}
+
+.featurepage-info.card1 {  
+  background: url(https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-repeat: no-repeat;  
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.featurepage-info.card2 {
+  background: url(https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-repeat: no-repeat;  
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 
 
@@ -290,7 +339,7 @@ footer {
 
 /* Desktop */
 @media (max-width: 1024px) {
-    .homepage-contentbox div{
+  .homepage-contentbox div{
     width: 40%;
   }
 }
@@ -298,14 +347,12 @@ footer {
 
 /* Tablet */
 @media (max-width: 800px) {
-    .homepage-contentbox div{
+  .homepage-contentbox div{
     width: 100%;
   }
-
   li {
     margin: 8% 8%;
-  }
-  
+  }  
 }
 
 /* Mobile */
@@ -314,28 +361,22 @@ footer {
     font-size: 3rem;
     padding: 4% 0;
   }
-
   h2 {
     font-size: 2rem;
     padding: 4% 0;
-  }
-  
+  }  
   nav {
     flex-flow: column no-wrap;
     align-content: center;
     justify-content: center;
-    padding: 8% 4%;
-  }
-  
+    padding: 20% 4%;
+  }  
   nav a {
     width: 100%;
-  }
-  
+  }  
   li {
     margin: 8% 8%;
-  }
-  
-
+  }  
   .homepage-contentbox div{
     width: 100%;
   }   
