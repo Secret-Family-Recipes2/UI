@@ -198,7 +198,7 @@ nav {
 }
 
 .homepage-contentbox div:hover{
-  transition: 1.5s ease-in-outg;
+  transition: 1.5s ease-in-out;
   filter: grayscale(100%); 
   border: 4px solid #fca311;
   flex-grow: 3;
