@@ -150,6 +150,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 300;
+    color: #4f4f4f;
 }
 
 .container {
@@ -178,6 +179,7 @@ h1 {
 
 h2 {
     font-size: 3rem;
+    margin-bottom: 2%;
 }
 
 h3 {
