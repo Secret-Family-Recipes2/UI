@@ -268,7 +268,7 @@ nav {
     height: 45vh;
     margin: 2% 2%;
     text-shadow: 2px 2px 2px #000;
-    text-align: center;
+    text-align: left;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -313,6 +313,7 @@ nav {
 }
 
 .team2 h2,
+.team2 h3,
 .team2 p {
     margin: 2%;
 }
@@ -326,6 +327,7 @@ nav {
 }
 
 .team3 h2,
+.team3 h3,
 .team3 p {
     margin: 2%;
 }
@@ -339,6 +341,7 @@ nav {
 }
 
 .team4 h2,
+.team4 h3,
 .team4 p {
     margin: 2%;
 }
@@ -352,6 +355,7 @@ nav {
 }
 
 .team5 h2,
+.team5 h3,
 .team5 p {
     margin: 2%;
 }
@@ -365,6 +369,7 @@ nav {
 }
 
 .team6 h2,
+.team6 h3,
 .team6 p {
     margin: 2%;
 }
