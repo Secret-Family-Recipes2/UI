@@ -353,14 +353,14 @@ footer {
 /* Media Queries */
 /* desktop */
 @media (max-width: 1024px) {
-    .homepage-contentbox div {
+    .recipes-contentbox div {
         width: 40%;
     }
 }
 
 /* tablet */
 @media (max-width: 800px) {
-    .homepage-contentbox div {
+    .recipes-contentbox div {
         width: 100%;
     }
 }
@@ -378,7 +378,7 @@ footer {
         width: 100%;
     }
 
-    .about-contentbox div {
+    .recipes-contentbox div {
         width: 100%;
     }
 }
