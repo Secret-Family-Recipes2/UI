@@ -245,8 +245,7 @@ nav {
     height: 20vh;
 }
 
-/* Section Styles */
-
+/* About Page Intro Styles */
 .about-intro {
     display: flex;
     flex-flow: column wrap;
@@ -260,6 +259,7 @@ nav {
     margin-left: 2%;
 }
 
+/* About Page Content with Images Styles */
 .about-contentbox {
     display: flex;
     flex-flow: row wrap;
@@ -400,6 +400,7 @@ footer {
 
 
 /* Media Queries */
+
 /* desktop */
 @media (max-width: 1024px) {
     .homepage-contentbox div {

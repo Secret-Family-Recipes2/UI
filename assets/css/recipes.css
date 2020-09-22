@@ -243,8 +243,7 @@ nav {
     height: 20vh;
 }
 
-/* Section Styles */
-
+/* Recipes Intro Styles */
 .recipes-intro {
     display: flex;
     flex-flow: column wrap;
@@ -258,6 +257,7 @@ nav {
     margin-left: 2%;
 }
 
+/* Recipes Content with Images Styles */
 .recipes-contentbox {
     display: flex;
     flex-flow: row wrap;
