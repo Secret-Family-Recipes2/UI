@@ -194,7 +194,7 @@ nav {
   flex-grow: 3;
 }
 
-.homepage-foodpanel {  
+.homepage-foodpanel, .featurespage-foodpanel {  
   border-radius: 10px;
   box-shadow: 5px 5px 30px #4f4f4f;
   color: #e5e5e5;
@@ -228,6 +228,22 @@ nav {
 
 .homepage-foodpanel.card6 {
   background: url(https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+
+.featurespage-foodpanel.card1 {
+  background: url(https://images.unsplash.com/photo-1521305916504-4a1121188589?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+.featurespage-foodpanel.card2 {
+  background: url(https://images.unsplash.com/photo-1490457843367-34b21b6ccd85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+.featurespage-foodpanel.card3 {
+  background: url(https://images.unsplash.com/photo-1573333515743-56d57731dd1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
   background-size: cover;
 }
 
