@@ -430,7 +430,7 @@ footer {
         flex-flow: column no-wrap;
         align-content: center;
         justify-content: center;
-        padding: 4% 4%;
+        padding: 4%;
     }
 
     nav a {
