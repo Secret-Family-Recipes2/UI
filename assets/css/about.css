@@ -404,7 +404,7 @@ footer {
 /* desktop */
 @media (max-width: 1024px) {
     .about-contentbox div {
-        width: 40%;
+        width: 46%;
     }
 }
 
