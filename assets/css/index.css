@@ -55,6 +55,8 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Roboto Slab', serif;
 font-family: 'Roboto', sans-serif;*/
 
+
+/* Main Container Attributers */
 html {  
     font-size: 62.5%;
 }
@@ -71,6 +73,8 @@ body {
   margin: auto;  
 }
 
+
+/* Basic Tag Styles */
 a {
   display: inline-block;
   text-decoration: none;
@@ -133,7 +137,6 @@ fca311
 4f4f4f
 */
 
-
 /* Header Styles */
 .logo {
   font-family: 'Dancing Script', cursive;
@@ -142,7 +145,6 @@ fca311
   color: #fff;  
   text-align: center;
 }
-
 
 .nav-border {
   height: 3vh;    
@@ -157,7 +159,10 @@ nav {
   height: 20vh;
 }
 
-/* Section Styles */
+
+
+
+/* Home Page Styles */
 
 .homepage-hero {
   display: flex;
@@ -188,7 +193,7 @@ nav {
 }
 
 .homepage-contentbox div:hover{
-  transition: 1.5s ease-in-out;
+  transition: 1.5s ease-in-outg;
   filter: grayscale(100%); 
   border: 4px solid #fca311;
   flex-grow: 3;
@@ -199,7 +204,6 @@ nav {
   box-shadow: 5px 5px 30px #4f4f4f;
   color: #e5e5e5;
 }
-
 
 .homepage-foodpanel.card1 {
   background: url(https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
@@ -232,6 +236,11 @@ nav {
 }
 
 
+
+
+
+/* Features Page Styles */
+
 .featurespage-foodpanel.card1 {
   background: url(https://images.unsplash.com/photo-1521305916504-4a1121188589?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
   background-size: cover;
@@ -247,8 +256,6 @@ nav {
   background-size: cover;
 }
 
-
-
 .featurepage-hero {
   display: flex;
   flex-flow: column wrap;
@@ -257,7 +264,6 @@ nav {
   padding: 0% 0%;
   background-color: #e5e5e5;
 }
-
 
 .featurepage-hero div{
   padding: 4% 2%;
@@ -326,7 +332,7 @@ footer {
 
 /* Desktop */
 @media (max-width: 1024px) {
-    .homepage-contentbox div{
+  .homepage-contentbox div{
     width: 40%;
   }
 }
@@ -334,14 +340,12 @@ footer {
 
 /* Tablet */
 @media (max-width: 800px) {
-    .homepage-contentbox div{
+  .homepage-contentbox div{
     width: 100%;
   }
-
   li {
     margin: 8% 8%;
-  }
-  
+  }  
 }
 
 /* Mobile */
@@ -350,28 +354,22 @@ footer {
     font-size: 3rem;
     padding: 4% 0;
   }
-
   h2 {
     font-size: 2rem;
     padding: 4% 0;
-  }
-  
+  }  
   nav {
     flex-flow: column no-wrap;
     align-content: center;
     justify-content: center;
     padding: 20% 4%;
-  }
-  
+  }  
   nav a {
     width: 100%;
-  }
-  
+  }  
   li {
     margin: 8% 8%;
-  }
-  
-
+  }  
   .homepage-contentbox div{
     width: 100%;
   }   
