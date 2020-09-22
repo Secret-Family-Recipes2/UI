@@ -333,7 +333,7 @@ nav {
 }
 
 .about-person.team4 {
-    background-image: url('./Brendan_Lai-Tong.png');
+    background-image: url('../images/about/Brendan_Lai-Tong.png');
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;
