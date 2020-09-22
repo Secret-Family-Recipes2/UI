@@ -188,8 +188,8 @@ nav {
 }
 
 .homepage-contentbox div:hover{
-  transition: 1s;
-  filter: grayscale(100%);
+  transition: 1.5s ease-in-out;
+  filter: grayscale(100%); 
   border: 4px solid #fca311;
   flex-grow: 3;
 }
