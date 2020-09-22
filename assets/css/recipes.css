@@ -267,6 +267,7 @@ nav {
     height: 45vh;
     margin: 2% 2%;
     text-shadow: 2px 2px 2px #000;
+    text-align: center;
 }
 
 .recipes-contentbox div:hover {
