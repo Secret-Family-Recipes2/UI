@@ -58,7 +58,12 @@ font-family: 'Roboto', sans-serif;*/
 
 /* Main Container Attributers */
 html {  
-    font-size: 62.5%;
+  font-size: 62.5%;    
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -169,7 +174,7 @@ nav {
   flex-flow: column wrap;
   justify-content: center;
   align-items: flex-start;
-  padding: 2% 2%;
+  padding: 4% 2%;
   background-color: #e5e5e5;
 }
 
