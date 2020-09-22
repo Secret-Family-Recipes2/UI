@@ -1,3 +1,6 @@
+/* Base CSS Start */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto+Slab:wght@300;500;700&family=Roboto:wght@300;500;700&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -134,8 +137,6 @@ table {
     border-spacing: 0;
 }
 
-/* Base CSS Start */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto+Slab:wght@300;500;700&family=Roboto:wght@300;500;700&display=swap');
 
 /* Fonts
 font-family: 'Dancing Script', cursive;
@@ -180,8 +181,8 @@ h6 {
 }
 
 h1 {
-    font-size: 4rem;
-    ;
+    font-size: 10rem;
+    padding-top: 3%;
 }
 
 h2 {
