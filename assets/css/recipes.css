@@ -1,3 +1,6 @@
+/* Base CSS Start */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto+Slab:wght@300;500;700&family=Roboto:wght@300;500;700&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -134,8 +137,6 @@ table {
     border-spacing: 0;
 }
 
-/* Base CSS Start */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto+Slab:wght@300;500;700&family=Roboto:wght@300;500;700&display=swap');
 
 /* Fonts
 font-family: 'Dancing Script', cursive;
@@ -144,16 +145,24 @@ font-family: 'Roboto', sans-serif;*/
 
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+​ *,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 1.75rem;
     font-weight: 300;
+    color: #4f4f4f;
 }
 
 .container {
-    width: 70%;
+    width: 100%;
     margin: auto;
 }
 
@@ -172,12 +181,13 @@ h6 {
 }
 
 h1 {
-    font-size: 4rem;
-    ;
+    font-size: 10rem;
+    padding-top: 3%;
 }
 
 h2 {
     font-size: 3rem;
+    margin-bottom: 2%;
 }
 
 h3 {
@@ -193,7 +203,6 @@ h5 {
 }
 
 p {
-    font-size: 1.5rem;
     line-height: 2rem;
     letter-spacing: .2rem;
 }
@@ -258,6 +267,7 @@ nav {
     height: 45vh;
     margin: 2% 2%;
     text-shadow: 2px 2px 2px #000;
+    text-align: center;
 }
 
 .recipes-contentbox div:hover {
@@ -268,7 +278,7 @@ nav {
 }
 
 .recipes-foodpanel.recipe1 {
-    background: url(https://ca.slack-edge.com/ESZCHB482-W013NQ2U1F1-c896d4be006d-512);
+    background: url('./neetu-laddha-K6fD41pMeXg-unsplash.jpg');
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;
@@ -276,7 +286,7 @@ nav {
 }
 
 .recipes-foodpanel.recipe2 {
-    background: url(https://ca.slack-edge.com/ESZCHB482-W012JUU4BJN-af56f96d9fe3-512);
+    background: url('./whitney-wright-qKxELxIH5t8-unsplash.jpg');
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;
@@ -284,7 +294,7 @@ nav {
 }
 
 .recipes-foodpanel.recipe3 {
-    background: url(https://ca.slack-edge.com/ESZCHB482-W017FGSH97Y-ec6646aa713d-512);
+    background: url('./robert-anasch-JZfPQTc7ais-unsplash.jpg');
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;
@@ -292,7 +302,7 @@ nav {
 }
 
 .recipes-foodpanel.recipe4 {
-    background-image: url('./Brendan_Lai-Tong.png');
+    background-image: url('./american-heritage-chocolate-1VNS4aeOmJc-unsplash.jpg');
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;
@@ -300,7 +310,7 @@ nav {
 }
 
 .recipes-foodpanel.recipe5 {
-    background: url(https://ca.slack-edge.com/ESZCHB482-W0198A5N8M8-3b32f0208c1f-512);
+    background: url('./katerina-jerabkova-chOYlsLtTO0-unsplash.jpg');
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;
@@ -308,7 +318,7 @@ nav {
 }
 
 .recipes-foodpanel.recipe6 {
-    background: url(https://ca.slack-edge.com/ESZCHB482-W0138D1DZ0Q-37a2a49c4e05-512);
+    background: url('./dragne-marius-ennARkXrF74-unsplash.jpg');
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;

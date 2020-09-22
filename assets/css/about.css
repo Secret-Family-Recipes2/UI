@@ -1,3 +1,6 @@
+/* Base CSS Start */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto+Slab:wght@300;500;700&family=Roboto:wght@300;500;700&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -134,8 +137,7 @@ table {
     border-spacing: 0;
 }
 
-/* Base CSS Start */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto+Slab:wght@300;500;700&family=Roboto:wght@300;500;700&display=swap');
+
 
 /* Fonts
 font-family: 'Dancing Script', cursive;
@@ -144,16 +146,24 @@ font-family: 'Roboto', sans-serif;*/
 
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+​ *,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 1.75rem;
     font-weight: 300;
+    color: #4f4f4f;
 }
 
 .container {
-    width: 70%;
+    width: 100%;
     margin: auto;
 }
 
@@ -172,12 +182,13 @@ h6 {
 }
 
 h1 {
-    font-size: 4rem;
-    ;
+    font-size: 10rem;
+    padding-top: 3%;
 }
 
 h2 {
     font-size: 3rem;
+    margin-bottom: 2%;
 }
 
 h3 {
@@ -193,7 +204,6 @@ h5 {
 }
 
 p {
-    font-size: 1.5rem;
     line-height: 2rem;
     letter-spacing: .2rem;
 }
@@ -258,6 +268,11 @@ nav {
     height: 45vh;
     margin: 2% 2%;
     text-shadow: 2px 2px 2px #000;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .about-contentbox div:hover {
@@ -265,6 +280,14 @@ nav {
     filter: grayscale(100%);
     border: 4px solid #fca311;
     flex-grow: 3;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.about-contentbox div:hover .hidden {
+    visibility: visible;
 }
 
 .about-person.team1 {
@@ -275,12 +298,24 @@ nav {
     color: #e5e5e5;
 }
 
+.team1 h2,
+.team1 h3,
+.team1 p {
+    margin: 2%;
+}
+
 .about-person.team2 {
     background: url(https://ca.slack-edge.com/ESZCHB482-W012JUU4BJN-af56f96d9fe3-512);
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;
     color: #e5e5e5;
+}
+
+.team2 h2,
+.team2 h3,
+.team2 p {
+    margin: 2%;
 }
 
 .about-person.team3 {
@@ -291,12 +326,24 @@ nav {
     color: #e5e5e5;
 }
 
+.team3 h2,
+.team3 h3,
+.team3 p {
+    margin: 2%;
+}
+
 .about-person.team4 {
     background-image: url('./Brendan_Lai-Tong.png');
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;
     color: #e5e5e5;
+}
+
+.team4 h2,
+.team4 h3,
+.team4 p {
+    margin: 2%;
 }
 
 .about-person.team5 {
@@ -307,6 +354,12 @@ nav {
     color: #e5e5e5;
 }
 
+.team5 h2,
+.team5 h3,
+.team5 p {
+    margin: 2%;
+}
+
 .about-person.team6 {
     background: url(https://ca.slack-edge.com/ESZCHB482-W0138D1DZ0Q-37a2a49c4e05-512);
     background-size: cover;
@@ -315,6 +368,11 @@ nav {
     color: #e5e5e5;
 }
 
+.team6 h2,
+.team6 h3,
+.team6 p {
+    margin: 2%;
+}
 
 
 
