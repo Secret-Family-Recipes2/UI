@@ -173,6 +173,7 @@ body {
 a {
   display: inline-block;
   text-decoration: none;
+  color: #fff;
 }
 
 h2,
@@ -258,7 +259,6 @@ nav {
   background-color: #14213d;
   height: 20vh;
 }
-
 
 
 
@@ -373,7 +373,8 @@ nav {
 .featurepage-info {
   color: #fff;
   box-shadow: inset 20px 20px 40px #000;
-  text-shadow: 2px 2px 4px #000;
+  text-shadow: 4px 2px 4px #000;
+  font-weight: 700;
   max-width: 100%;
 }
 
@@ -392,6 +393,27 @@ nav {
 }
 
 
+/* Testimonials */
+
+.homepage-testimonials {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 8% 2%;
+  background-color: #e5e5e5;
+  font-style: italic;
+  font-weight: 500;
+}
+
+
+.homepage-testimonials div{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 25%;
+  height: 20vh;  
+  margin: 2% 2%;
+}
 
 
 
@@ -450,6 +472,10 @@ footer {
     width: 100%;
   }
 
+  .homepage-testimonials div{
+    width: 100%;
+  }   
+ 
   li {
     margin: 8% 8%;
   }
@@ -484,5 +510,12 @@ footer {
 
   .homepage-contentbox div {
     width: 100%;
+  }
+
+  .homepage-testimonials div{
+    width: 100%;
+  }      
+  .featurepage-info.card2 {
+    padding: 8% 4%;
   }
 }
