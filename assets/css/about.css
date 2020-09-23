@@ -377,10 +377,10 @@ footer {
 }
 
 .copyright {
-    height: 2vh;
+    height: 10vh;
     background-color: #fca311;
     font-size: 1.2rem;
-    padding: 1%;
+    padding: 2.5%;
     text-align: center;
 }
 
@@ -445,7 +445,7 @@ footer {
         flex-flow: column nowrap;
         align-content: center;
         justify-content: center;
-        padding: 40% 4%;
+        padding: 20% 4%;
     }
 
     nav a {
