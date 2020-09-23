@@ -191,11 +191,12 @@ h1 {
 
 h2 {
     font-size: 3rem;
-    margin-bottom: 2%;
+    margin: 2%;
 }
 
 h3 {
     font-size: 2rem;
+    margin: 2%;
 }
 
 h4 {
@@ -310,19 +311,9 @@ nav {
     background-size: cover;
 }
 
-.team1 h2,
-.team1 h3 {
-    margin: 2%;
-}
-
 .about-person.team2 {
     background: url(https://ca.slack-edge.com/ESZCHB482-W012JUU4BJN-af56f96d9fe3-512);
     background-size: cover;
-}
-
-.team2 h2,
-.team2 h3 {
-    margin: 2%;
 }
 
 .about-person.team3 {
@@ -330,19 +321,9 @@ nav {
     background-size: cover;
 }
 
-.team3 h2,
-.team3 h3 {
-    margin: 2%;
-}
-
 .about-person.team4 {
     background-image: url('../images/about/Brendan_Lai-Tong.png');
     background-size: cover;
-}
-
-.team4 h2,
-.team4 h3 {
-    margin: 2%;
 }
 
 .about-person.team5 {
@@ -350,19 +331,9 @@ nav {
     background-size: cover;
 }
 
-.team5 h2,
-.team5 h3 {
-    margin: 2%;
-}
-
 .about-person.team6 {
     background: url(https://ca.slack-edge.com/ESZCHB482-W0138D1DZ0Q-37a2a49c4e05-512);
     background-size: cover;
-}
-
-.team6 h2,
-.team6 h3 {
-    margin: 2%;
 }
 
 .copyright {
