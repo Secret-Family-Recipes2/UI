@@ -426,11 +426,22 @@ footer {
 
 /* mobile */
 @media (max-width: 500px) {
+    h1 {
+        font-size: 3rem;
+        padding: 4% 0;
+    }
+
+    h2 {
+        font-size: 2rem;
+        padding: 4% 0;
+    }
+
     nav {
         flex-flow: column no-wrap;
         align-content: center;
         justify-content: center;
         padding: 4%;
+        height: 30vh;
     }
 
     nav a {
