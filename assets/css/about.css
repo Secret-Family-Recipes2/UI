@@ -191,7 +191,7 @@ h1 {
 
 h2 {
     font-size: 3rem;
-    margin: 2%;
+    margin: 1% 2%;
 }
 
 h3 {
@@ -200,7 +200,8 @@ h3 {
 }
 
 h4 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+    margin: 1% 0% 1% 2%;
 }
 
 h5 {
@@ -211,7 +212,7 @@ p {
     line-height: 2rem;
     letter-spacing: .2rem;
     padding: 0 2%;
-    margin: 2% 0;
+    margin: 1% 0 2% 0;
 }
 
 /* Color Palette Light to Dark
@@ -258,6 +259,10 @@ nav {
 
 .about-intro .about-intro-title {
     margin-left: 2%;
+}
+
+strong {
+    font-weight: 700;
 }
 
 /* About Page Content with Images Styles */
