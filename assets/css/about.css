@@ -437,7 +437,7 @@ footer {
     }
 
     nav {
-        flex-flow: column no-wrap;
+        flex-flow: column;
         align-content: center;
         justify-content: center;
         padding: 4%;
