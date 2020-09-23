@@ -422,13 +422,7 @@ nav {
   align-items: flex-end;
 }
 
-
-footer {
-  height: 30vh;
-}
-
 .copyright {
-  height: 10vh;
   background-color: #fca311;
   font-size: 1.2rem;
   padding: 2.5%;
