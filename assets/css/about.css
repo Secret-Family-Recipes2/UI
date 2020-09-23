@@ -292,6 +292,7 @@ nav {
 
 .hidden {
     visibility: hidden;
+    /* Making h2 and p hidden until hover */
 }
 
 .about-contentbox div:hover .hidden {
@@ -364,15 +365,7 @@ nav {
     margin: 2%;
 }
 
-
-
-/* Footer Styles */
-footer {
-    height: 30vh;
-}
-
 .copyright {
-    height: 7.5vh;
     background-color: #fca311;
     font-size: 1.2rem;
     padding: 2.5%;
