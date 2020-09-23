@@ -137,13 +137,15 @@ table {
     border-spacing: 0;
 }
 
-
+/* Base Recipes Page */
 
 /* Fonts
 font-family: 'Dancing Script', cursive;
 font-family: 'Roboto Slab', serif;
 font-family: 'Roboto', sans-serif;*/
 
+
+/* Main Container */
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -167,6 +169,7 @@ body {
     margin: auto;
 }
 
+/* Basic Styling */
 a {
     display: inline-block;
     text-decoration: none;
@@ -206,6 +209,8 @@ h5 {
 p {
     line-height: 2rem;
     letter-spacing: .2rem;
+    padding: 0 2%;
+    margin: 2% 0;
 }
 
 /* Color Palette Light to Dark
@@ -240,23 +245,26 @@ nav {
     height: 20vh;
 }
 
-/* Section Styles */
-
+/* About Page Intro Styles */
 .about-intro {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: flex-start;
-    padding: 2% 2%;
+    padding: 4% 2%;
     background-color: #e5e5e5;
 }
 
+.about-intro .about-intro-title {
+    margin-left: 2%;
+}
 
+/* About Page Content with Images Styles */
 .about-contentbox {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 2% 2%;
+    padding: 4% 2%;
     background-color: #e5e5e5;
 }
 
@@ -276,7 +284,7 @@ nav {
 }
 
 .about-contentbox div:hover {
-    transition: 1s;
+    transition: 1.5s ease-in-out;
     filter: grayscale(100%);
     border: 4px solid #fca311;
     flex-grow: 3;
@@ -290,87 +298,69 @@ nav {
     visibility: visible;
 }
 
-.about-person.team1 {
-    background: url(https://ca.slack-edge.com/ESZCHB482-W013NQ2U1F1-c896d4be006d-512);
-    background-size: cover;
+.about-person {
     border-radius: 10px;
     box-shadow: 5px 5px 30px #4f4f4f;
     color: #e5e5e5;
 }
 
+.about-person.team1 {
+    background: url(https://ca.slack-edge.com/ESZCHB482-W013NQ2U1F1-c896d4be006d-512);
+    background-size: cover;
+}
+
 .team1 h2,
-.team1 h3,
-.team1 p {
+.team1 h3 {
     margin: 2%;
 }
 
 .about-person.team2 {
     background: url(https://ca.slack-edge.com/ESZCHB482-W012JUU4BJN-af56f96d9fe3-512);
     background-size: cover;
-    border-radius: 10px;
-    box-shadow: 5px 5px 30px #4f4f4f;
-    color: #e5e5e5;
 }
 
 .team2 h2,
-.team2 h3,
-.team2 p {
+.team2 h3 {
     margin: 2%;
 }
 
 .about-person.team3 {
     background: url(https://ca.slack-edge.com/ESZCHB482-W017FGSH97Y-ec6646aa713d-512);
     background-size: cover;
-    border-radius: 10px;
-    box-shadow: 5px 5px 30px #4f4f4f;
-    color: #e5e5e5;
 }
 
 .team3 h2,
-.team3 h3,
-.team3 p {
+.team3 h3 {
     margin: 2%;
 }
 
 .about-person.team4 {
-    background-image: url('./Brendan_Lai-Tong.png');
+    background-image: url('../images/about/Brendan_Lai-Tong.png');
     background-size: cover;
-    border-radius: 10px;
-    box-shadow: 5px 5px 30px #4f4f4f;
-    color: #e5e5e5;
 }
 
 .team4 h2,
-.team4 h3,
-.team4 p {
+.team4 h3 {
     margin: 2%;
 }
 
 .about-person.team5 {
     background: url(https://ca.slack-edge.com/ESZCHB482-W0198A5N8M8-3b32f0208c1f-512);
     background-size: cover;
-    border-radius: 10px;
-    box-shadow: 5px 5px 30px #4f4f4f;
-    color: #e5e5e5;
 }
 
 .team5 h2,
-.team5 h3,
-.team5 p {
+.team5 h3 {
     margin: 2%;
 }
 
 .about-person.team6 {
     background: url(https://ca.slack-edge.com/ESZCHB482-W0138D1DZ0Q-37a2a49c4e05-512);
     background-size: cover;
-    border-radius: 10px;
-    box-shadow: 5px 5px 30px #4f4f4f;
-    color: #e5e5e5;
 }
 
 .team6 h2,
-.team6 h3,
-.team6 p {
+.team6 h3 {
     margin: 2%;
 }
 
@@ -410,27 +400,48 @@ footer {
 
 
 /* Media Queries */
+
 /* desktop */
 @media (max-width: 1024px) {
-    .homepage-contentbox div {
-        width: 40%;
+    .about-contentbox div {
+        width: 46%;
     }
 }
 
 /* tablet */
 @media (max-width: 800px) {
-    .homepage-contentbox div {
-        width: 100%;
+    .about-contentbox div {
+        width: 70%;
+    }
+
+    .about-contentbox {
+        justify-content: center;
+    }
+
+    .about-contentbox div:hover {
+        transition: none;
+        flex-grow: 0;
     }
 }
 
 /* mobile */
 @media (max-width: 500px) {
+    h1 {
+        font-size: 3rem;
+        padding: 4% 0;
+    }
+
+    h2 {
+        font-size: 2rem;
+        padding: 4% 0;
+    }
+
     nav {
         flex-flow: column no-wrap;
         align-content: center;
         justify-content: center;
-        padding: 4% 4%;
+        padding: 4%;
+        height: 30vh;
     }
 
     nav a {
