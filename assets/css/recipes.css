@@ -321,19 +321,15 @@ nav {
 }
 
 /* Footer Styles */
-.footer-nav {
-    align-items: flex-end;
-}
-
 footer {
     height: 30vh;
 }
 
 .copyright {
-    height: 2vh;
+    height: 10vh;
     background-color: #fca311;
     font-size: 1.2rem;
-    padding: 1%;
+    padding: 2.5%;
     text-align: center;
 }
 
@@ -360,18 +356,37 @@ footer {
 
 /* tablet */
 @media (max-width: 800px) {
+    h1 {
+        font-size: 7rem;
+        padding: 4% 0;
+    }
+
     .recipes-contentbox div {
         width: 100%;
+    }
+
+    .about-contentbox div:hover {
+        flex-grow: 0;
     }
 }
 
 /* mobile */
 @media (max-width: 500px) {
+    h1 {
+        font-size: 5rem;
+        padding: 4% 0;
+    }
+
+    h2 {
+        font-size: 2rem;
+        padding: 4% 0;
+    }
+
     nav {
-        flex-flow: column no-wrap;
-        align-content: center;
+        flex-flow: column nowrap;
+        align-items: center;
         justify-content: center;
-        padding: 4% 4%;
+        padding: 20% 4%;
     }
 
     nav a {
