@@ -410,6 +410,11 @@ footer {
 
 /* tablet */
 @media (max-width: 800px) {
+    h1 {
+        font-size: 7rem;
+        padding: 4% 0;
+    }
+
     .about-contentbox div {
         width: 70%;
     }
@@ -427,7 +432,7 @@ footer {
 /* mobile */
 @media (max-width: 500px) {
     h1 {
-        font-size: 3rem;
+        font-size: 5rem;
         padding: 4% 0;
     }
 
@@ -437,11 +442,10 @@ footer {
     }
 
     nav {
-        flex-flow: column;
+        flex-flow: column nowrap;
         align-content: center;
         justify-content: center;
-        padding: 4%;
-        height: 30vh;
+        padding: 40% 4%;
     }
 
     nav a {
