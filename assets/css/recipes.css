@@ -321,19 +321,15 @@ nav {
 }
 
 /* Footer Styles */
-.footer-nav {
-    align-items: flex-end;
-}
-
 footer {
     height: 30vh;
 }
 
 .copyright {
-    height: 2vh;
+    height: 10vh;
     background-color: #fca311;
     font-size: 1.2rem;
-    padding: 1%;
+    padding: 2.5%;
     text-align: center;
 }
 
