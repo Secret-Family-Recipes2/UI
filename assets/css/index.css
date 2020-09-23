@@ -301,6 +301,27 @@ nav {
 }
 
 
+/* Testimonials */
+
+.homepage-testimonials {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 8% 2%;
+  background-color: #e5e5e5;
+  font-style: italic;
+  font-weight: 500;
+}
+
+
+.homepage-testimonials div{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 25%;
+  height: 20vh;  
+  margin: 2% 2%;
+}
 
 
 
@@ -357,6 +378,9 @@ footer {
   .homepage-contentbox div{
     width: 100%;
   }
+  .homepage-testimonials div{
+    width: 100%;
+  }      
   li {
     margin: 8% 8%;
   }  
@@ -386,7 +410,10 @@ footer {
   }  
   .homepage-contentbox div{
     width: 100%;
-  }   
+  }
+  .homepage-testimonials div{
+    width: 100%;
+  }      
   .featurepage-info.card2 {
     padding: 8% 4%;
   }  
