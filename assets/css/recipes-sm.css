@@ -260,7 +260,7 @@ nav {
 /* Recipes Content with Images Styles */
 .recipes-contentbox {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     justify-content: space-between;
     padding: 4% 2%;
     background-color: #e5e5e5;
@@ -270,7 +270,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: 90%;
     height: 45vh;
     margin: 2% 2%;
     text-shadow: 2px 2px 2px #000;
