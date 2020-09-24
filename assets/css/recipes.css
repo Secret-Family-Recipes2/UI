@@ -257,12 +257,24 @@ nav {
     margin-left: 2%;
 }
 
+.recipes-intro div.size-change {
+    padding: 2% 4% 0;
+}
+
+.size-change .list {
+    color: #e5e5e5;
+    text-align: center;
+    background-color: #14213d;
+    border-radius: 7px;
+    padding: 7px;
+}
+
 /* Recipes Content with Images Styles */
 .recipes-contentbox {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 4% 2%;
+    padding: 0 4% 2%;
     background-color: #e5e5e5;
 }
 
