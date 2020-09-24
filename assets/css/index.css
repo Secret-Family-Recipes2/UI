@@ -264,6 +264,14 @@ fca311
   text-align: center;
 }
 
+.inline-logo {
+  font-family: 'Dancing Script', cursive;
+  color: #14213d;
+  font-weight: 900;
+  font-size: 2rem;
+  text-shadow: .5px .5px 2px #000;
+}
+
 .nav-border {
   height: 3vh;
   background-color: #FCA311;
