@@ -266,7 +266,7 @@ nav {
     background-color: #e5e5e5;
 }
 
-.recipes-contentbox div {
+.recipes-contentbox a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -277,7 +277,7 @@ nav {
     text-align: center;
 }
 
-.recipes-contentbox div:hover {
+.recipes-contentbox a:hover {
     transition: 1.5s ease-in-out;
     filter: grayscale(100%);
     border: 4px solid #fca311;
