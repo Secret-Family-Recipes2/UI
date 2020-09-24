@@ -393,7 +393,7 @@ nav {
 /* Media Queries */
 /* desktop */
 @media (max-width: 1024px) {
-  .recipes-contentbox div {
+  .recipes-contentbox a {
     width: 40%;
   }
 }
@@ -405,11 +405,11 @@ nav {
     padding: 4% 0;
   }
 
-  .recipes-contentbox div {
-    width: 100%;
+  .recipes-contentbox a {
+    width: 46%;
   }
 
-  .about-contentbox div:hover {
+  .about-contentbox a:hover {
     flex-grow: 0;
   }
 }
@@ -437,7 +437,12 @@ nav {
     width: 100%;
   }
 
-  .recipes-contentbox div {
-    width: 100%;
+  .recipes-contentbox a {
+    width: 46%;
+    height: 15vh;
+  }
+
+  .recipes-intro a.size-change {
+    margin: auto;
   }
 }
