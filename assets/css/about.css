@@ -265,6 +265,13 @@ strong {
     font-weight: 450;
 }
 
+.inline-logo {
+    font-family: 'Dancing Script', cursive;
+    color: #14213d;
+    font-weight: 1000;
+    text-shadow: .5px .5px .5px #000;
+}
+
 ul {
     list-style-type: disc;
     padding-bottom: 10%;
