@@ -24,12 +24,12 @@
 
 
 ## Fonts ##
-Dancing Script, Roboto Slab, Roboto
+* Dancing Script, Roboto Slab, Roboto
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto+Slab:wght@300;500;700&family=Roboto:wght@300;500;700&display=swap');
 
-font-family: 'Dancing Script', cursive;
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Slab', serif;
+* font-family: 'Dancing Script', cursive;
+* font-family: 'Roboto', sans-serif;
+* font-family: 'Roboto Slab', serif;
 
 ## Breakpoints ##
 
