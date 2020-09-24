@@ -249,12 +249,25 @@ nav {
     flex-flow: column wrap;
     justify-content: center;
     align-items: flex-start;
-    padding: 4% 2% 3%;
+    padding: 4% 2% 0%;
     background-color: #e5e5e5;
 }
 
 .recipes-intro .recipes-intro-title {
     margin-left: 2%;
+}
+
+.recipes-intro div.size-change {
+    padding: 0 2%
+}
+
+.size-change .list {
+    color: #e5e5e5;
+    text-align: center;
+    border: solid #fca311;
+    background-color: #14213d;
+    border-radius: 10px;
+    padding: 6px;
 }
 
 /* Recipes Content with Images Styles */
