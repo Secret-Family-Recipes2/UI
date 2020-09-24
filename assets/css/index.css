@@ -198,6 +198,8 @@ h2 {
 
 h3 {
   font-size: 2rem;
+  margin-bottom: 2%;
+  margin-left: 2%;
 }
 
 h4 {
@@ -221,9 +223,24 @@ ul {
   margin: 4% 4%;
 }
 
+ol {
+  list-style: decimal;
+  margin: 10% 10%;
+}
+
+.recipe ul {
+  margin: 10% 10%;
+  padding-bottom: 8%; 
+}
+
+
 li {
   font-size: 2rem;
   padding: 2% 0;
+}
+
+.recipe li{
+  padding-bottom: 8%;
 }
 
 strong {
@@ -336,6 +353,27 @@ nav {
   background-size: cover;
 }
 
+/* Homepage Testimonials */
+
+.homepage-testimonials {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 8% 2%;
+  background-color: #e5e5e5;
+  font-style: italic;
+  font-weight: 500;
+}
+
+
+.homepage-testimonials div{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 25%;
+  height: 20vh;  
+  margin: 2% 2%;
+}
 
 
 
@@ -393,27 +431,30 @@ nav {
 }
 
 
-/* Testimonials */
 
-.homepage-testimonials {
+/* Egg Salad Page */
+.eggsalad {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   padding: 8% 2%;
   background-color: #e5e5e5;
-  font-style: italic;
-  font-weight: 500;
+  font-weight: 300;
 }
 
-
-.homepage-testimonials div{
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+.eggsalad div {
   width: 25%;
-  height: 20vh;  
+  height: 100%;
   margin: 2% 2%;
 }
+
+.eggsalad img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px #4f4f4f;
+  margin-bottom: 10%;
+  width: 100%;
+}
+
 
 
 
@@ -444,13 +485,15 @@ nav {
 
 
 
-
 /* Media Queries */
 
 /* Desktop */
 @media (max-width: 1024px) {
   .homepage-contentbox div {
     width: 40%;
+  }
+  .eggsalad div {
+    width: 100%;
   }
 }
 
@@ -472,6 +515,10 @@ nav {
  
   li {
     margin: 8% 8%;
+  }
+
+  .eggsalad div {
+    width: 100%;
   }
 }
 
@@ -508,8 +555,13 @@ nav {
 
   .homepage-testimonials div{
     width: 100%;
-  }      
+  }  
+
   .featurepage-info.card2 {
     padding: 8% 4%;
+  }
+  
+  .eggsalad div {
+    width: 100%;
   }
 }
