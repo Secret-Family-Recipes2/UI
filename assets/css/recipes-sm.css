@@ -260,7 +260,7 @@ nav {
   padding: 2% 4% 0;
 }
 
-/* Link to smaller icon page */
+/* Link to larger icon page */
 .size-change .list {
   color: #14213d;
   text-align: center;
@@ -291,7 +291,7 @@ nav {
   justify-content: center;
   align-items: center;
   width: 25%;
-  height: 45vh;
+  height: 10vh;
   margin: 2% 2%;
   text-shadow: 2px 2px 2px #000;
   text-align: center;
@@ -394,7 +394,7 @@ nav {
 /* desktop */
 @media (max-width: 1024px) {
   .recipes-contentbox a {
-    width: 46%;
+    width: 40%;
   }
 }
 
@@ -406,7 +406,7 @@ nav {
   }
 
   .recipes-contentbox a {
-    width: 100%;
+    width: 46%;
   }
 
   .about-contentbox a:hover {
@@ -438,10 +438,11 @@ nav {
   }
 
   .recipes-contentbox a {
-    width: 100%;
+    width: 46%;
+    height: 15vh;
   }
 
-  .recipes-intro div.size-change {
+  .recipes-intro a.size-change {
     margin: auto;
   }
 }
