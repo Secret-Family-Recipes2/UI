@@ -320,6 +320,36 @@ nav {
     background-size: cover;
 }
 
+.recipes-foodpanel.recipe7 {
+    background: url("../images/recipes/jez-timms-gMW2NZ7JGrE-unsplash.jpg");
+    background-size: cover;
+}
+
+.recipes-foodpanel.recipe8 {
+    background: url("../images/recipes/edgar-castrejon-4Q_xlBOaCso-unsplash.jpg");
+    background-size: cover;
+}
+
+.recipes-foodpanel.recipe9 {
+    background: url("../images/recipes/carissa-gan-_0JpjeqtSyg-unsplash.jpg");
+    background-size: cover;
+}
+
+.recipes-foodpanel.recipe10 {
+    background: url("../images/recipes/brandi-ibrao-M-Br3v3-gao-unsplash.jpg");
+    background-size: cover;
+}
+
+.recipes-foodpanel.recipe11 {
+    background: url("../images/recipes/stephen-walker-_-SwhhV7tSo-unsplash.jpg");
+    background-size: cover;
+}
+
+.recipes-foodpanel.recipe12 {
+    background: url("../images/recipes/jodie-walton-Vvx4kbkubtI-unsplash.jpg");
+    background-size: cover;
+}
+
 
 .copyright {
     background-color: #fca311;
