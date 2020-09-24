@@ -249,7 +249,7 @@ nav {
     flex-flow: column wrap;
     justify-content: center;
     align-items: flex-start;
-    padding: 4% 2%;
+    padding: 4% 2% 3%;
     background-color: #e5e5e5;
 }
 
@@ -260,9 +260,9 @@ nav {
 /* Recipes Content with Images Styles */
 .recipes-contentbox {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
-    padding: 4% 2%;
+    padding: 0 2% 4%;
     background-color: #e5e5e5;
 }
 
@@ -270,8 +270,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    height: 45vh;
+    width: 20%;
+    height: 10vh;
     margin: 2% 2%;
     text-shadow: 2px 2px 2px #000;
     text-align: center;
